@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar Component should mount the NavBar wrapper 1`] = `
+<NavBar>
+  <div
+    className="nav"
+  >
+    <h4
+      className="nav_fonts"
+    >
+      <span>
+        S
+      </span>
+      tar Wars
+    </h4>
+  </div>
+</NavBar>
+`;

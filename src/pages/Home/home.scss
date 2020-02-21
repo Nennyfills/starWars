@@ -1,0 +1,61 @@
+.home {
+  margin: 2rem 4rem;
+  .home_intro-right {
+    border-bottom: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
+    width: 15%;
+  }
+  .home_intro-middle {
+    border-top: 0.1rem solid #fff;
+    width: 15%;
+    padding-top: 1.7rem;
+    text-align: center;
+  }
+  .home_intro-left {
+    border-bottom: 0.1rem solid #fff;
+    border-left: 0.1rem solid #fff;
+    width: 70%;
+  }
+  .title {
+    color: #834b73;
+  }
+  .home_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    height: 2.8rem;
+    border-left: 2px solid #834b73;
+    border-right: 2px solid #834b73;
+    border-top: 2px solid #834b73;
+    border-bottom: 4.2px solid #ffffff;
+  }
+  .home_intro {
+    display: flex;
+    box-sizing: border-box;
+    height: 3rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-left: 5rem;
+    align-items: center;
+    border-bottom: 2px solid #834b73;
+    background: #ffffff;
+  }
+  .home_cards {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    .card {
+      width: 22%;
+      margin: 0.5rem;
+    }
+  }
+  .home_film-button {
+    border: 0;
+    height: 35px;
+    padding: 0 10px;
+    outline: 0;
+  }
+}

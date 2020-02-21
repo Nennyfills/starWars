@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component should mount the card wrapper 1`] = `
+<div
+  className="card"
+>
+  <section
+    className="card_vertical"
+  >
+    <article
+      className="vertical_design"
+    >
+      <img
+        alt="loading"
+        src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
+      />
+    </article>
+    <div
+      className="fonts_card"
+    >
+      <div
+        className="fonts_detail"
+      >
+        <div
+          className="fonts_name"
+        >
+          will
+        </div>
+        <div
+          className="fonts_gender"
+        >
+          male
+        </div>
+        <div
+          className="fonts_birth"
+        >
+          2011
+        </div>
+      </div>
+      <div
+        className="fonts_view"
+      >
+        <input
+          className="view_btn"
+          onClick={[Function]}
+          type="button"
+          value="View"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Card Component should mount the card wrapper 2`] = `
+<Card
+  horizontal={false}
+>
+  <div
+    className="card"
+  >
+    <section
+      className="card_vertical"
+    >
+      <article
+        className="vertical_design"
+      >
+        <img
+          alt="loading"
+          src="https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
+        />
+      </article>
+      <div
+        className="fonts_card"
+      >
+        <div
+          className="fonts_detail"
+        >
+          <div
+            className="fonts_name"
+          />
+          <div
+            className="fonts_gender"
+          />
+          <div
+            className="fonts_birth"
+          />
+        </div>
+        <div
+          className="fonts_view"
+        >
+          <Button
+            button="view_btn"
+            name="View"
+          >
+            <input
+              className="view_btn"
+              type="button"
+              value="View"
+            />
+          </Button>
+        </div>
+      </div>
+    </section>
+  </div>
+</Card>
+`;

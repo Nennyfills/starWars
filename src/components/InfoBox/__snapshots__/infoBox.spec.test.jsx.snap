@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBox Component should mount the InfoBox wrapper 1`] = `
+<InfoBox>
+  <div
+    className="infoBox"
+  >
+    <div
+      className="error"
+    >
+      <i
+        className="fa fa-times-circle"
+      />
+    </div>
+  </div>
+</InfoBox>
+`;
