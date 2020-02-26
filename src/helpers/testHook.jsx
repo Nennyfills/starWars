@@ -6,11 +6,6 @@ const TestHook = ({ callback }) => {
   callback();
   return null;
 };
-  // const testForm = {
-  //   getEachPersonFiledRequest: jest.fn(() => (result) => result),
-  //   getPeopleRequest: jest.fn(() => (result) => result),
-  // };
-
 const store = mockStore({
   data: {
     loading: false,

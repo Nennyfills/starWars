@@ -1,145 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="70" failures="1" time="17.194">
-  <testsuite name="Button" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:37" time="8.727" tests="4">
-    <testcase classname="Button should render correctly" name="Button should render correctly" time="0.019">
+<testsuites name="jest tests" tests="70" failures="0" time="24.624">
+  <testsuite name="Button" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="12.059" tests="4">
+    <testcase classname="Button should render correctly" name="Button should render correctly" time="0.028">
     </testcase>
-    <testcase classname="Button should be defined" name="Button should be defined" time="0">
+    <testcase classname="Button should be defined" name="Button should be defined" time="0.001">
     </testcase>
-    <testcase classname="Button should have a button value" name="Button should have a button value" time="0.011">
+    <testcase classname="Button should have a button value" name="Button should have a button value" time="0.012">
     </testcase>
     <testcase classname="Button should call mock function when button is clicked" name="Button should call mock function when button is clicked" time="0.003">
     </testcase>
   </testsuite>
-  <testsuite name="Card Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:37" time="8.95" tests="1">
-    <testcase classname="Card Component should mount the card wrapper" name="Card Component should mount the card wrapper" time="0.158">
+  <testsuite name="pagination Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="12.162" tests="1">
+    <testcase classname="pagination Component should mount the pagination wrapper" name="pagination Component should mount the pagination wrapper" time="0.139">
     </testcase>
   </testsuite>
-  <testsuite name="useCustomizeHooks" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:37" time="9.763" tests="18">
-    <testcase classname="useCustomizeHooks should have an handleFilm function" name="useCustomizeHooks should have an handleFilm function" time="0.108">
+  <testsuite name="Card Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="12.484" tests="1">
+    <testcase classname="Card Component should mount the card wrapper" name="Card Component should mount the card wrapper" time="0.209">
     </testcase>
-    <testcase classname="useCustomizeHooks should have an handleSpecie function" name="useCustomizeHooks should have an handleSpecie function" time="0.012">
+  </testsuite>
+  <testsuite name="NavBar Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="12.265" tests="1">
+    <testcase classname="NavBar Component should mount the NavBar wrapper" name="NavBar Component should mount the NavBar wrapper" time="0.166">
+    </testcase>
+  </testsuite>
+  <testsuite name="useCustomizeHooks" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="13.127" tests="18">
+    <testcase classname="useCustomizeHooks should have an handleFilm function" name="useCustomizeHooks should have an handleFilm function" time="0.124">
+    </testcase>
+    <testcase classname="useCustomizeHooks should have an handleSpecie function" name="useCustomizeHooks should have an handleSpecie function" time="0.005">
     </testcase>
     <testcase classname="useCustomizeHooks should have an handleVehicle function" name="useCustomizeHooks should have an handleVehicle function" time="0.004">
     </testcase>
-    <testcase classname="useCustomizeHooks should have an handleStarShips function" name="useCustomizeHooks should have an handleStarShips function" time="0.004">
+    <testcase classname="useCustomizeHooks should have an handleStarShips function" name="useCustomizeHooks should have an handleStarShips function" time="0.005">
     </testcase>
-    <testcase classname="useCustomizeHooks should have an open function" name="useCustomizeHooks should have an open function" time="0.004">
+    <testcase classname="useCustomizeHooks should have an open function" name="useCustomizeHooks should have an open function" time="0.005">
     </testcase>
     <testcase classname="useCustomizeHooks should have an close function" name="useCustomizeHooks should have an close function" time="0.005">
     </testcase>
-    <testcase classname="useCustomizeHooks should have an next function" name="useCustomizeHooks should have an next function" time="0.004">
+    <testcase classname="useCustomizeHooks should have an next function" name="useCustomizeHooks should have an next function" time="0.005">
     </testcase>
-    <testcase classname="useCustomizeHooks should have an previous function" name="useCustomizeHooks should have an previous function" time="0.004">
-    </testcase>
-    <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.005">
+    <testcase classname="useCustomizeHooks should have an previous function" name="useCustomizeHooks should have an previous function" time="0.005">
     </testcase>
     <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.004">
     </testcase>
-    <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.003">
+    <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.004">
     </testcase>
-    <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.003">
+    <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.007">
     </testcase>
-    <testcase classname="useCustomizeHooks should be an empty string" name="useCustomizeHooks should be an empty string" time="0.003">
+    <testcase classname="useCustomizeHooks should have a boolean value" name="useCustomizeHooks should have a boolean value" time="0.007">
     </testcase>
-    <testcase classname="useCustomizeHooks should update the value when handleFilm is called" name="useCustomizeHooks should update the value when handleFilm is called" time="0.008">
+    <testcase classname="useCustomizeHooks should be an empty string" name="useCustomizeHooks should be an empty string" time="0.005">
     </testcase>
-    <testcase classname="useCustomizeHooks should update the value when eachStarShips is called" name="useCustomizeHooks should update the value when eachStarShips is called" time="0.007">
+    <testcase classname="useCustomizeHooks should update the value when handleFilm is called" name="useCustomizeHooks should update the value when handleFilm is called" time="0.016">
     </testcase>
-    <testcase classname="useCustomizeHooks should update the value when handleVehicles is called" name="useCustomizeHooks should update the value when handleVehicles is called" time="0.01">
+    <testcase classname="useCustomizeHooks should update the value when eachStarShips is called" name="useCustomizeHooks should update the value when eachStarShips is called" time="0.009">
+    </testcase>
+    <testcase classname="useCustomizeHooks should update the value when handleVehicles is called" name="useCustomizeHooks should update the value when handleVehicles is called" time="0.009">
     </testcase>
     <testcase classname="useCustomizeHooks should update the value when eachSpecies is called" name="useCustomizeHooks should update the value when eachSpecies is called" time="0.007">
     </testcase>
     <testcase classname="useCustomizeHooks should call side effect" name="useCustomizeHooks should call side effect" time="0.004">
     </testcase>
   </testsuite>
-  <testsuite name="Get action" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:37" time="10.062" tests="14">
-    <testcase classname="Get action should get all" name="Get action should get all" time="0.028">
+  <testsuite name="Test Home" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="13.579" tests="3">
+    <testcase classname="Test Home should render properly" name="Test Home should render properly" time="0.034">
     </testcase>
-    <testcase classname="Get action should not get all people" name="Get action should not get all people" time="0.005">
+    <testcase classname="Test Home should ascertain that all the div are existing" name="Test Home should ascertain that all the div are existing" time="0.011">
     </testcase>
-    <testcase classname="Get action should check if the loading action is been dispatched" name="Get action should check if the loading action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if the is requesting an action to been dispatched" name="Get action should check if the is requesting an action to been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if receive action is been dispatched" name="Get action should check if receive action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if receive error action is been dispatched" name="Get action should check if receive error action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should get modal success" name="Get action should get modal success" time="0.002">
-    </testcase>
-    <testcase classname="Get action should check if the is requesting an action to been dispatched" name="Get action should check if the is requesting an action to been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if receive action is been dispatched" name="Get action should check if receive action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if receive error action is been dispatched" name="Get action should check if receive error action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should get close modal success" name="Get action should get close modal success" time="0.002">
-    </testcase>
-    <testcase classname="Get action should check if the is requesting an action to been dispatched" name="Get action should check if the is requesting an action to been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if receive action is been dispatched" name="Get action should check if receive action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get action should check if receive error action is been dispatched" name="Get action should check if receive error action is been dispatched" time="0.001">
+    <testcase classname="Test Home should click to get each film" name="Test Home should click to get each film" time="0.01">
     </testcase>
   </testsuite>
-  <testsuite name="Get field action" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:37" time="10.04" tests="6">
-    <testcase classname="Get field action should get all field" name="Get field action should get all field" time="0.02">
+  <testsuite name="Reducers" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:35" time="2.832" tests="7">
+    <testcase classname="Reducers should check if reducer is loading while getting field" name="Reducers should check if reducer is loading while getting field" time="0.007">
     </testcase>
-    <testcase classname="Get field action should not get all field" name="Get field action should not get all field" time="0.004">
-    </testcase>
-    <testcase classname="Get field action should check if the field loading action is been dispatched" name="Get field action should check if the field loading action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get field action should check if the field is requesting an action to been dispatched" name="Get field action should check if the field is requesting an action to been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get field action should check if receive field action is been dispatched" name="Get field action should check if receive field action is been dispatched" time="0.001">
-    </testcase>
-    <testcase classname="Get field action should check if receive error action is been dispatched" name="Get field action should check if receive error action is been dispatched" time="0.001">
-    </testcase>
-  </testsuite>
-  <testsuite name="Test Home" errors="0" failures="1" skipped="0" timestamp="2020-02-21T16:06:37" time="10.604" tests="3">
-    <testcase classname="Test Home should render properly" name="Test Home should render properly" time="0.027">
-    </testcase>
-    <testcase classname="Test Home should ascertain that all the div are existing" name="Test Home should ascertain that all the div are existing" time="0.024">
-    </testcase>
-    <testcase classname="Test Home should click to get each film" name="Test Home should click to get each film" time="0.023">
-      <failure>TypeError: button.find(...).toEqual is not a function
-    at Object.toEqual (C:\Users\chinenye.dike\Documents\workspace\ChinenyeDikeShortTestTask\src\pages\Home\Home.spec.test.jsx:90:32)
-    at Object.asyncJestTest (C:\Users\chinenye.dike\Documents\workspace\ChinenyeDikeShortTestTask\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
-    at C:\Users\chinenye.dike\Documents\workspace\ChinenyeDikeShortTestTask\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (C:\Users\chinenye.dike\Documents\workspace\ChinenyeDikeShortTestTask\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at C:\Users\chinenye.dike\Documents\workspace\ChinenyeDikeShortTestTask\node_modules\jest-jasmine2\build\queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
-    </testcase>
-  </testsuite>
-  <testsuite name="Reducers" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:46" time="1.997" tests="9">
-    <testcase classname="Reducers should check if reducer is loading while getting people" name="Reducers should check if reducer is loading while getting people" time="0.006">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting get people" name="Reducers should check if reducer is getting get people" time="0.002">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting an error while receiving people detail" name="Reducers should check if reducer is getting an error while receiving people detail" time="0.003">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is loading while getting open modal" name="Reducers should check if reducer is loading while getting open modal" time="0.001">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting get open modal" name="Reducers should check if reducer is getting get open modal" time="0.001">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting an error while receiving open modal detail" name="Reducers should check if reducer is getting an error while receiving open modal detail" time="0.002">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is loading while getting close modal" name="Reducers should check if reducer is loading while getting close modal" time="0.002">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting get close modal" name="Reducers should check if reducer is getting get close modal" time="0.001">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting an error while receiving close modal detail" name="Reducers should check if reducer is getting an error while receiving close modal detail" time="0.002">
-    </testcase>
-  </testsuite>
-  <testsuite name="InfoBox Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:46" time="1.845" tests="1">
-    <testcase classname="InfoBox Component should mount the InfoBox wrapper" name="InfoBox Component should mount the InfoBox wrapper" time="0.038">
-    </testcase>
-  </testsuite>
-  <testsuite name="Reducers" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:47" time="1.828" tests="7">
-    <testcase classname="Reducers should check if reducer is loading while getting field" name="Reducers should check if reducer is loading while getting field" time="0.005">
-    </testcase>
-    <testcase classname="Reducers should check if reducer is getting user field" name="Reducers should check if reducer is getting user field" time="0.002">
+    <testcase classname="Reducers should check if reducer is getting user field" name="Reducers should check if reducer is getting user field" time="0.003">
     </testcase>
     <testcase classname="Reducers should check if reducer is getting an error while receiving field detail" name="Reducers should check if reducer is getting an error while receiving field detail" time="0.003">
     </testcase>
@@ -147,37 +79,97 @@
     </testcase>
     <testcase classname="Update user field should check if reducer is updating field" name="Update user field should check if reducer is updating field" time="0.002">
     </testcase>
-    <testcase classname="Update user field should check if reducer is getting an error while updating field detail" name="Update user field should check if reducer is getting an error while updating field detail" time="0.002">
+    <testcase classname="Update user field should check if reducer is getting an error while updating field detail" name="Update user field should check if reducer is getting an error while updating field detail" time="0.012">
     </testcase>
-    <testcase classname="Update user field should test reducer default state" name="Update user field should test reducer default state" time="0.002">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:37" time="11.906" tests="1">
-    <testcase classname=" renders properly" name=" renders properly" time="0.04">
+    <testcase classname="Update user field should test reducer default state" name="Update user field should test reducer default state" time="0.003">
     </testcase>
   </testsuite>
-  <testsuite name="NavBar Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:47" time="1.864" tests="1">
-    <testcase classname="NavBar Component should mount the NavBar wrapper" name="NavBar Component should mount the NavBar wrapper" time="0.113">
+  <testsuite name="Reducers" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:35" time="2.922" tests="9">
+    <testcase classname="Reducers should check if reducer is loading while getting people" name="Reducers should check if reducer is loading while getting people" time="0.006">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is getting get people" name="Reducers should check if reducer is getting get people" time="0.002">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is getting an error while receiving people detail" name="Reducers should check if reducer is getting an error while receiving people detail" time="0.003">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is loading while getting open modal" name="Reducers should check if reducer is loading while getting open modal" time="0.002">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is getting get open modal" name="Reducers should check if reducer is getting get open modal" time="0.002">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is getting an error while receiving open modal detail" name="Reducers should check if reducer is getting an error while receiving open modal detail" time="0.007">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is loading while getting close modal" name="Reducers should check if reducer is loading while getting close modal" time="0.002">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is getting get close modal" name="Reducers should check if reducer is getting get close modal" time="0.002">
+    </testcase>
+    <testcase classname="Reducers should check if reducer is getting an error while receiving close modal detail" name="Reducers should check if reducer is getting an error while receiving close modal detail" time="0.003">
     </testcase>
   </testsuite>
-  <testsuite name="Footer Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:47" time="1.844" tests="1">
-    <testcase classname="Footer Component should mount the Footer wrapper" name="Footer Component should mount the Footer wrapper" time="0.113">
+  <testsuite name="InfoBox Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:35" time="2.644" tests="1">
+    <testcase classname="InfoBox Component should mount the InfoBox wrapper" name="InfoBox Component should mount the InfoBox wrapper" time="0.055">
     </testcase>
   </testsuite>
-  <testsuite name="HTTP client" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:48" time="1.667" tests="1">
+  <testsuite name="InfoBox Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:35" time="2.474" tests="1">
+    <testcase classname="InfoBox Component should mount the InfoBox wrapper" name="InfoBox Component should mount the InfoBox wrapper" time="0.106">
+    </testcase>
+  </testsuite>
+  <testsuite name="Get action" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:34" time="4.026" tests="14">
+    <testcase classname="Get action should get all" name="Get action should get all" time="0.013">
+    </testcase>
+    <testcase classname="Get action should not get all people" name="Get action should not get all people" time="0.006">
+    </testcase>
+    <testcase classname="Get action should check if the loading action is been dispatched" name="Get action should check if the loading action is been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get action should check if the is requesting an action to been dispatched" name="Get action should check if the is requesting an action to been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get action should check if receive action is been dispatched" name="Get action should check if receive action is been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get action should check if receive error action is been dispatched" name="Get action should check if receive error action is been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get action should get modal success" name="Get action should get modal success" time="0.002">
+    </testcase>
+    <testcase classname="Get action should check if the is requesting an action to been dispatched" name="Get action should check if the is requesting an action to been dispatched" time="0.001">
+    </testcase>
+    <testcase classname="Get action should check if receive action is been dispatched" name="Get action should check if receive action is been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get action should check if receive error action is been dispatched" name="Get action should check if receive error action is been dispatched" time="0.001">
+    </testcase>
+    <testcase classname="Get action should get close modal success" name="Get action should get close modal success" time="0.002">
+    </testcase>
+    <testcase classname="Get action should check if the is requesting an action to been dispatched" name="Get action should check if the is requesting an action to been dispatched" time="0.001">
+    </testcase>
+    <testcase classname="Get action should check if receive action is been dispatched" name="Get action should check if receive action is been dispatched" time="0">
+    </testcase>
+    <testcase classname="Get action should check if receive error action is been dispatched" name="Get action should check if receive error action is been dispatched" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Get field action" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:34" time="3.952" tests="6">
+    <testcase classname="Get field action should get all field" name="Get field action should get all field" time="0.02">
+    </testcase>
+    <testcase classname="Get field action should not get all field" name="Get field action should not get all field" time="0.006">
+    </testcase>
+    <testcase classname="Get field action should check if the field loading action is been dispatched" name="Get field action should check if the field loading action is been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get field action should check if the field is requesting an action to been dispatched" name="Get field action should check if the field is requesting an action to been dispatched" time="0.002">
+    </testcase>
+    <testcase classname="Get field action should check if receive field action is been dispatched" name="Get field action should check if receive field action is been dispatched" time="0.001">
+    </testcase>
+    <testcase classname="Get field action should check if receive error action is been dispatched" name="Get field action should check if receive error action is been dispatched" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:22" time="16.756" tests="1">
+    <testcase classname=" renders properly" name=" renders properly" time="0.032">
+    </testcase>
+  </testsuite>
+  <testsuite name="Spinner Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:37" time="1.491" tests="1">
+    <testcase classname="Spinner Component should mount the spinner wrapper" name="Spinner Component should mount the spinner wrapper" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="HTTP client" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:38" time="1.396" tests="1">
     <testcase classname="HTTP client should have a base url attached" name="HTTP client should have a base url attached" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="pagination Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:48" time="1.581" tests="1">
-    <testcase classname="pagination Component should mount the pagination wrapper" name="pagination Component should mount the pagination wrapper" time="0.024">
-    </testcase>
-  </testsuite>
-  <testsuite name="Spinner Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:48" time="1.665" tests="1">
-    <testcase classname="Spinner Component should mount the spinner wrapper" name="Spinner Component should mount the spinner wrapper" time="0.087">
-    </testcase>
-  </testsuite>
-  <testsuite name="InfoBox Component" errors="0" failures="0" skipped="0" timestamp="2020-02-21T16:06:49" time="1.253" tests="1">
-    <testcase classname="InfoBox Component should mount the InfoBox wrapper" name="InfoBox Component should mount the InfoBox wrapper" time="0.031">
+  <testsuite name="Footer Component" errors="0" failures="0" skipped="0" timestamp="2020-02-26T11:06:38" time="1.436" tests="1">
+    <testcase classname="Footer Component should mount the Footer wrapper" name="Footer Component should mount the Footer wrapper" time="0.02">
     </testcase>
   </testsuite>
 </testsuites>

@@ -1,11 +1,11 @@
 # Star War
-star Wars is an application that aids user to the star wars actors and their character.
+star Wars is an application that aids users to see the star wars actors and their character.
 
-[![Build Status](https://travis-ci.org/Nennyfills/starWars.svg?branch=master)](https://travis-ci.org/Nennyfills/starWars)
+[![Build Status](https://travis-ci.com/Nennyfills/starWars.svg?branch=master)](https://travis-ci.com/Nennyfills/starWars)
 [![Coverage Status](https://coveralls.io/repos/github/Nennyfills/starWars/badge.svg?branch=master)](https://coveralls.io/github/Nennyfills/starWars?branch=master)
 
 ### Goto Application
-
+[star-wars-application](https://star-wars-application.firebaseapp.com)
 
 ### Technology Stack
 
@@ -41,4 +41,3 @@ Starts the app in the production mode
 
 ### `npm run start:dev`
 Starts the app in the development mode
-# starWars

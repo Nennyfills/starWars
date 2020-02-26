@@ -6,8 +6,6 @@ node_js:
 cache:
   directories:
   - node_modules
-before_script: 
-  - sudo redis-server /etc/redis/redis.conf --port 6380 --requirepass 'secret'
 before_install:
   - npm update
 install:

@@ -36,6 +36,7 @@ export const Card = ({
   showEachSpecies,
   showEachStarShips,
   showEachVehicles,
+  birthYearDescription,
 }) => (
   <div className="card">
     {!horizontal ? (
@@ -50,7 +51,10 @@ export const Card = ({
           <div className="fonts_detail">
             <div className="fonts_name">{name}</div>
             <div className="fonts_gender">{gender}</div>
-            <div className="fonts_birth">{birthYear}</div>
+            <div className="fonts_birth">
+              {birthYear}
+              {birthYear === 'unknown' ? '' : birthYearDescription}
+            </div>
           </div>
           <div className="fonts_view">
             <Button handleClick={openModal} button="view_btn" name="View" />
@@ -60,7 +64,10 @@ export const Card = ({
     ) : (
       <section className="card_horizontal">
         <article className="card_horizontal-left">
-          {showEachFilm || showEachSpecies || showEachStarShips || showEachVehicles || (
+          {showEachFilm
+            || showEachSpecies
+            || showEachStarShips
+            || showEachVehicles || (
             <>
               <div>
                 <h3>Films</h3>
@@ -89,7 +96,12 @@ export const Card = ({
 Card.propTypes = {
   horizontal: PropTypes.bool,
   name: PropTypes.string,
-  birthYear: PropTypes.string,
+  birthYear: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string,
+    PropTypes.instanceOf(Object),
+  ]),
+  birthYearDescription: PropTypes.string,
   gender: PropTypes.string,
   openModal: PropTypes.func,
   films: PropTypes.string,
@@ -104,8 +116,9 @@ Card.propTypes = {
 Card.defaultProps = {
   horizontal: false,
   name: 'Unavailable',
-  birthYear: 'Unavailable',
+  birthYear: '',
   gender: 'Unavailable',
+  birthYearDescription: 'Unavailable',
   openModal: () => '',
   films: 'Unavailable',
   species: 'Unavailable',

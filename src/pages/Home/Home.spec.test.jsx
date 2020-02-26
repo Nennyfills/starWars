@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import { Provider } from 'react-redux';
 import { shallow } from 'enzyme';
@@ -22,9 +21,7 @@ const store = mockStore({
   eachData: {
     loading: false,
     data: [{
-      firstName: 'James',
-      lastName: 'James',
-      age: 21,
+      title: 'WILLS',
       birthday: 'feb 04 2304 tue utc',
     },
     ],
@@ -32,38 +29,13 @@ const store = mockStore({
   },
 });
 
-let props;
 let wrapper;
+const getEachPersonFiledRequest = jest.fn();
+
 beforeEach(() => {
-  props = {
-    data: {
-      loading: false,
-      data: [{
-        firstName: 'James',
-        lastName: 'James',
-        age: 21,
-        birthday: 'feb 04 2304 tue utc',
-      },
-      ],
-      errors: null,
-    },
-    eachData: {
-      loading: false,
-      data: [{
-        firstName: 'James',
-        lastName: 'James',
-        age: 21,
-        birthday: 'feb 04 2304 tue utc',
-      },
-      ],
-      errors: null,
-    },
-    getPeopleRequest: jest.fn(),
-    getEachPersonFiledRequest: jest.fn(),
-  };
   wrapper = shallow(
     <Provider store={store}>
-      <Home {...props}>
+      <Home>
         <div className="home" />
       </Home>
     </Provider>,
@@ -80,8 +52,8 @@ describe('Test Home', () => {
   });
 
   it('should click to get each film', () => {
-    const button = shallow(<Button name="film" handleClick={props.getEachPersonFiledRequest} />);
+    const button = shallow(<Button name="film" handleClick={getEachPersonFiledRequest} />);
     button.simulate('click');
-    expect(button.find('name').toEqual('film'));
+    expect(getEachPersonFiledRequest).toHaveBeenCalled();
   });
 });

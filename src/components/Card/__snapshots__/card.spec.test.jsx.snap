@@ -35,6 +35,7 @@ exports[`Card Component should mount the card wrapper 1`] = `
           className="fonts_birth"
         >
           2011
+          Unavailable
         </div>
       </div>
       <div
@@ -42,6 +43,7 @@ exports[`Card Component should mount the card wrapper 1`] = `
       >
         <input
           className="view_btn"
+          disabled={false}
           onClick={[Function]}
           type="button"
           value="View"
@@ -54,7 +56,20 @@ exports[`Card Component should mount the card wrapper 1`] = `
 
 exports[`Card Component should mount the card wrapper 2`] = `
 <Card
+  birthYear=""
+  birthYearDescription="Unavailable"
+  films="Unavailable"
+  gender="Unavailable"
   horizontal={false}
+  name="Unavailable"
+  openModal={[Function]}
+  showEachFilm=""
+  showEachSpecies=""
+  showEachStarShips=""
+  showEachVehicles=""
+  species="Unavailable"
+  starShips=""
+  vehicles="Unavailable"
 >
   <div
     className="card"
@@ -78,23 +93,33 @@ exports[`Card Component should mount the card wrapper 2`] = `
         >
           <div
             className="fonts_name"
-          />
+          >
+            Unavailable
+          </div>
           <div
             className="fonts_gender"
-          />
+          >
+            Unavailable
+          </div>
           <div
             className="fonts_birth"
-          />
+          >
+            Unavailable
+          </div>
         </div>
         <div
           className="fonts_view"
         >
           <Button
             button="view_btn"
+            disabled={false}
+            handleClick={[Function]}
             name="View"
           >
             <input
               className="view_btn"
+              disabled={false}
+              onClick={[Function]}
               type="button"
               value="View"
             />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import Moment from 'react-moment';
 
 import './home.scss';
 import { Card } from '../../components/Card';
@@ -65,7 +66,10 @@ const Home = () => {
               key={value.name}
               name={value.name}
               gender={value.gender}
-              birthYear={value.birth_year}
+              birthYear={value.birth_year !== 'unknown'
+                ? <Moment format="YYYY">{value.birth_year.match(/\d+/g)}</Moment>
+                : 'unknown'}
+              birthYearDescription={value.birth_year.match(/[a-zA-Z]+/g)[0] === 'BBY' ? 'BBY' : 'ABY'}
             />
           ))}
       </div>
@@ -80,7 +84,7 @@ const Home = () => {
         onCloseModal={close}
         isError={isError}
         html={(
-          isLoading ? <div className="mr-2 ml-2 mt-2 mb-2 loading">Loading...</div> : (
+          isLoading ? <div className="loading">Loading...</div> : (
             <Card
               horizontal
               showEachFilm={(eachFilm
@@ -113,32 +117,39 @@ const Home = () => {
                 ? (
                   <div>
                     <h3>{eachField.name}</h3>
+                    <div>
+                      <p>
+                        Created
+                        {'  '}
+                        <span><Moment format="MM/DD/YYYY HH:mm">{eachField.created}</Moment></span>
+                      </p>
+                    </div>
                     <div className="card_list min-width ">
-                      <div className="card_list-item w-100 mt-10 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Classification</h4>
                         <p>{eachField.classification}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Designation</h4>
                         <p>{eachField.designation}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle mr-2 ">
                         <h4>Average Height</h4>
                         <p>{eachField.average_height}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
-                        <h4>Average Lifespan</h4>
+                      <div className="card_list-item w-100 mt-10 card_circle mr-2 ">
+                        <h4>Average_Lifespan</h4>
                         <p>{eachField.average_lifespan}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Language</h4>
                         <h5>{eachField.language}</h5>
                       </div>
-                      <div className="card_list-item w-100 mt-10 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Hair Colors</h4>
                         <p>{eachField.hair_colors}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Eye Colors</h4>
                         <h5>{eachField.eye_colors}</h5>
                       </div>
@@ -150,36 +161,43 @@ const Home = () => {
                 ? (
                   <div>
                     <h3>{eachField.name}</h3>
+                    <div>
+                      <p>
+                        Created
+                        {'  '}
+                        <span><Moment format="MM/DD/YYYY HH:mm">{eachField.created}</Moment></span>
+                      </p>
+                    </div>
                     <div className="card_list min-width ">
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Credits</h4>
                         <p>{eachField.cost_in_credits}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>crew</h4>
                         <p>{eachField.crew}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>passengers</h4>
                         <p>{eachField.passengers}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Capacity</h4>
                         <p>{eachField.cargo_capacity}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>consumables</h4>
                         <p>{eachField.consumables}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>Vehicle</h4>
                         <h5>{eachField.vehicle_class}</h5>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>model</h4>
                         <p>{eachField.model}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 ml-3 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 card_circle ">
                         <h4>manufacturer</h4>
                         <h5>{eachField.manufacturer}</h5>
                       </div>
@@ -191,40 +209,47 @@ const Home = () => {
                 ? (
                   <div>
                     <h3>{eachField.name}</h3>
+                    <div>
+                      <p>
+                        Created
+                        {'  '}
+                        <span><Moment format="MM/DD/YYYY HH:mm">{eachField.created}</Moment></span>
+                      </p>
+                    </div>
                     <div className="card_list min-width ">
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Credits</h4>
                         <p>{eachField.cost_in_credits}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Crew</h4>
                         <p>{eachField.crew}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Passengers</h4>
                         <p>{eachField.passengers}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Capacity</h4>
                         <p>{eachField.cargo_capacity}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Hyper_Drive_Rating</h4>
                         <p>{eachField.hyperdrive_rating}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>MGLT</h4>
                         <h5>{eachField.MGLT}</h5>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Model</h4>
                         <p>{eachField.model}</p>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Manufacturer</h4>
                         <h5>{eachField.manufacturer}</h5>
                       </div>
-                      <div className="card_list-item w-100 mt-10 mr-2 border">
+                      <div className="card_list-item w-100 mt-10 mr-2 card_circle ">
                         <h4>Starship</h4>
                         <h5>{eachField.starship_class}</h5>
                       </div>

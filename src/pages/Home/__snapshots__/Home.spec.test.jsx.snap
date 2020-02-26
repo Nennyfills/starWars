@@ -32,38 +32,7 @@ exports[`Test Home should render properly 1`] = `
     }
   }
 >
-  <Home
-    data={
-      Object {
-        "data": Array [
-          Object {
-            "age": 21,
-            "birthday": "feb 04 2304 tue utc",
-            "firstName": "James",
-            "lastName": "James",
-          },
-        ],
-        "errors": null,
-        "loading": false,
-      }
-    }
-    eachData={
-      Object {
-        "data": Array [
-          Object {
-            "age": 21,
-            "birthday": "feb 04 2304 tue utc",
-            "firstName": "James",
-            "lastName": "James",
-          },
-        ],
-        "errors": null,
-        "loading": false,
-      }
-    }
-    getEachPersonFiledRequest={[MockFunction]}
-    getPeopleRequest={[MockFunction]}
-  >
+  <Home>
     <div
       className="home"
     />

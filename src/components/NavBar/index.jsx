@@ -9,8 +9,8 @@ import './navBar.scss';
 const NavBar = () => (
   <div className="nav">
     <h4 className="nav_fonts">
-      <span>S</span>
-tar Wars
+      <span className="nav-logo">S</span>
+tarWars
     </h4>
   </div>
 );

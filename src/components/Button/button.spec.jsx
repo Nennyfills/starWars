@@ -16,7 +16,7 @@ describe('Button', () => {
   });
   it('should have a button value', () => {
     const tree = shallow(
-      <Button name="button test" />,
+      <Button name="function" />,
     );
     expect(typeof (tree.find('input').name)).toBe('function');
     expect(tree.find('input').name).toBeInstanceOf(Function);

@@ -8,10 +8,12 @@ exports[`NavBar Component should mount the NavBar wrapper 1`] = `
     <h4
       className="nav_fonts"
     >
-      <span>
+      <span
+        className="nav-logo"
+      >
         S
       </span>
-      tar Wars
+      tarWars
     </h4>
   </div>
 </NavBar>

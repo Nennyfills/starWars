@@ -1,21 +1,6 @@
 .home {
-  margin: 2rem 4rem;
-  .home_intro-right {
-    border-bottom: 0.1rem solid #fff;
-    border-right: 0.1rem solid #fff;
-    width: 15%;
-  }
-  .home_intro-middle {
-    border-top: 0.1rem solid #fff;
-    width: 15%;
-    padding-top: 1.7rem;
-    text-align: center;
-  }
-  .home_intro-left {
-    border-bottom: 0.1rem solid #fff;
-    border-left: 0.1rem solid #fff;
-    width: 70%;
-  }
+  margin: 2rem auto;
+  padding: 0 2rem;
   .title {
     color: #834b73;
   }
@@ -46,9 +31,8 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-
     .card {
-      width: 22%;
+      width: 19%;
       margin: 0.5rem;
     }
   }

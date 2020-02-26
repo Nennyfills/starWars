@@ -1,7 +1,7 @@
 {
-  "name": "connect",
+  "name": "starwars",
   "version": "1.0.0",
-  "description": "Connect is an application that aids two or more individual share information among themselves.",
+  "description": "starWars is an application that aids users to see the star wars actors and their character.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./config/webpack.prod.js",
@@ -24,9 +24,9 @@
   "author": "Nenny Dike",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nennyfills/connect/issues"
+    "url": "https://github.com/Nennyfills/starwars/issues"
   },
-  "homepage": "https://github.com/Nennyfills/connect#readme",
+  "homepage": "https://github.com/Nennyfills/starwars#readme",
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
     "autoprefixer": "^9.7.4",
@@ -39,11 +39,13 @@
     "express": "^4.17.1",
     "jest": "^24.9.0",
     "jest-css-modules-transform": "^4.0.0",
+    "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "query-string": "^6.8.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-hot-loader": "^4.12.15",
+    "react-moment": "^0.9.7",
     "react-redux": "^7.2.0",
     "react-responsive-modal": "^4.0.1",
     "react-router-dom": "^5.1.2",

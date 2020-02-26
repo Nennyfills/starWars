@@ -1,18 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`pagination Component should mount the pagination wrapper 1`] = `
-<Pagination>
+<Pagination
+  next={[Function]}
+  nextPage=""
+  previous={[Function]}
+  previousPage=""
+>
   <div
     className="pagination"
   >
     <Button
       button="button"
       disabled={true}
+      handleClick={[Function]}
       name="❮"
     >
       <input
         className="button"
         disabled={true}
+        onClick={[Function]}
         type="button"
         value="❮"
       />
@@ -20,11 +27,13 @@ exports[`pagination Component should mount the pagination wrapper 1`] = `
     <Button
       button="button"
       disabled={true}
+      handleClick={[Function]}
       name="❯"
     >
       <input
         className="button"
         disabled={true}
+        onClick={[Function]}
         type="button"
         value="❯"
       />

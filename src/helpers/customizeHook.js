@@ -8,6 +8,9 @@ import {
   getEachPersonFiledRequest,
 } from '../store/modules/starWars/getAllPeople';
 
+/**
+ * custom hooks
+ */
 const useCustomizeHooks = () => {
   const dispatch = useDispatch();
   const [eachPerson, setEachPerson] = useState('');
@@ -72,7 +75,7 @@ const useCustomizeHooks = () => {
   };
 
   const previous = async (previousPage) => {
-    const currentPage = +previousPage - 1;
+    const currentPage = +previousPage;
     dispatch(await getPeopleRequest({ pageNumber: currentPage }));
   };
   return {

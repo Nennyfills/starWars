@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InfoBox Component should mount the InfoBox wrapper 1`] = `
-<InfoBox>
+<InfoBox
+  message=""
+>
   <div
     className="infoBox"
   >

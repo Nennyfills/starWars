@@ -2,6 +2,9 @@
 
 exports[`Button should render correctly 1`] = `
 <input
+  className=""
+  disabled={false}
+  onClick={[Function]}
   type="button"
   value="button test"
 />

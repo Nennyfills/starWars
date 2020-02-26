@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 import './pagination.scss';
 import Button from '../Button';
-import { EnvironmentPlugin } from 'webpack';
-import { Component } from 'react';
 
 /**
  * Pagination Component

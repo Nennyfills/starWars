@@ -1,8 +1,5 @@
 import axios from 'axios';
 
-console.log(process.env.BASE_URL);
-
-/* eslint-disable no-param-reassign */
 /**
  * An axios proxy to attach the base url and authentication token
  */
