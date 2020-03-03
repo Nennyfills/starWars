@@ -92,7 +92,7 @@ const Home = () => {
                   <div>
                     <h3>{eachField.title}</h3>
                     <h4>
-                    Episode
+                      Episode
                       {eachField.episode_id}
                     </h4>
                     <p>{eachField.opening_crawl}</p>

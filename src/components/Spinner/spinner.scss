@@ -25,17 +25,17 @@
 
 .spinner-sector-one {
     animation: rotate 2s ease-out infinite;
-    border-top: 15px solid #6dcdec;
+    border-top: 15px solid #540085;
 }
 
 .spinner-sector-two {
     animation: rotate 2.5s ease-in infinite;
-    border-top: 15px solid #9e1daa;
+    border-top: 15px solid #070707;
 }
 
 .spinner-sector-three {
     animation: rotate 1.5s ease-in-out infinite;
-    border-top: 15px solid #884e78;
+    border-top: 15px solid #3f052f;
 }
 
 @keyframes rotate {

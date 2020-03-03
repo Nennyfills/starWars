@@ -10,7 +10,7 @@ const NavBar = () => (
   <div className="nav">
     <h4 className="nav_fonts">
       <span className="nav-logo">S</span>
-tarWars
+      tarWars
     </h4>
   </div>
 );
